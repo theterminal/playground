@@ -20,5 +20,4 @@ while True:
     else:
         counter_no += 1
         print(f'ГРЕШКА! {rand_num_1} * {rand_num_2} = {answer_comp}\n                    [Верни {counter_yes} - Грешни {counter_no}]\n')
-
-# This change is done in VSC to test the connection...
+        
