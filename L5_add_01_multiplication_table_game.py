@@ -1,5 +1,5 @@
 # 20220520
-# Multiplication Table Game
+# Learn to Multiply - (Multiplication Table Game)
 
 import random
 
@@ -7,8 +7,8 @@ counter_yes = 0
 counter_no = 0
 
 while True:
-    rand_num_1 = random.randint(0, 10)                           # changes the range of the one number
-    rand_num_2 = random.randint(0, 10)                           # changes the range of the other number
+    rand_num_1 = random.randint(0, 10)                           # range of the first number
+    rand_num_2 = random.randint(0, 10)                           # range of the seond number
 
     answer_comp = rand_num_1 * rand_num_2
     print(f'Колко е {rand_num_1} * {rand_num_2} = ', end="")
