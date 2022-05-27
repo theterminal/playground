@@ -14,8 +14,7 @@ while True:
 
     if answer_human == answer_comp:
         counter_yes += 1
-        print(f'OK\n                    [Correct {counter_yes} - Incorrect {counter_no}]\n')
+        print(f'OK\n                       [Correct {counter_yes} - Incorrect {counter_no}]\n')
     else:
         counter_no += 1
-        print(f'INCORRECT {rand_num_1} * {rand_num_2} = {answer_comp}\n                    [Correct {counter_yes} - Incorrect {counter_no}]\n')
-        
+        print(f'INCORRECT {rand_num_1} * {rand_num_2} = {answer_comp}\n                       [Correct {counter_yes} - Incorrect {counter_no}]\n')
